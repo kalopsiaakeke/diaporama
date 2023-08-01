@@ -1,0 +1,26 @@
+/* Basic styles for the diaporama slideshow */
+.slideshow-container {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.forward-arrow {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  font-size: 24px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
